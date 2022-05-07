@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+/* .cusSticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+} */
+
+nav > i {
+    color: white;
+}
+div.viewSwitch {
+    align-items: center;
+}
+
+div.class {
+    margin: 1rem;
+}
+
+div.cardHeader {
+    display: flex;
+    justify-content: space-between;
+}
