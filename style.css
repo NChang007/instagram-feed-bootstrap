@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow: hidden;
 }
 /* .cusSticky {
     position: fixed;
@@ -10,9 +11,11 @@ body{
 
 nav > i {
     color: white;
+    margin: 3px;
 }
-div.viewSwitch {
-    align-items: center;
+nav.viewSwitch {
+    display: flex;
+    justify-content: center;
 }
 
 div.class {
@@ -22,4 +25,13 @@ div.class {
 div.cardHeader {
     display: flex;
     justify-content: space-between;
+}
+
+div.row > div >img{
+    margin: 50px;
+}
+
+div.cardContainer {
+    display: flex;
+    flex-direction: column;
 }
